@@ -1,0 +1,29 @@
+{
+  "name": "fleetflow-backend",
+  "version": "1.0.0",
+  "description": "Transport & Logistics Management System Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node src/utils/seeder.js",
+    "test:google": "node C:\\Users\\krish\\.gemini\\antigravity\\brain\\4c35a663-8701-45ef-b5f7-2d35a05e0a21\\scratch\\test_google_auth.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}

@@ -1,0 +1,1175 @@
+{
+  "users": [
+    {
+      "_id": "6a11dfcffa18568adb33acdb",
+      "name": "Johnathan Admin",
+      "email": "admin@fleetflow.com",
+      "password": "$2a$10$UYbrwbE43qZ2Sri8vRMSc.ttOXuYzwFb3W7LjKE9XP0TjZRls2J4y",
+      "role": "Admin",
+      "phone": "+1 (555) 100-2001",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&h=150&q=80",
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkYiIsImlhdCI6MTc3OTU1Nzk4OSwiZXhwIjoxNzgwMTYyNzg5fQ.0DGWrqskR_KY3uYEk2XRpF032wQMXG6h6SRlwtPht4w",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkYiIsImlhdCI6MTc3OTU2MDM4OCwiZXhwIjoxNzgwMTY1MTg4fQ.XbRcaR4hL4HdB-MkMTMeSMAt1xsXKkwIHpaJvifWDMU",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkYiIsImlhdCI6MTc3OTU2MDM5MywiZXhwIjoxNzgwMTY1MTkzfQ.js_1ClrngR4VmEsnju8b7w1VA1WpM4gVz9_3SfnjmF4",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkYiIsImlhdCI6MTc3OTU2MTEyOCwiZXhwIjoxNzgwMTY1OTI4fQ.kOmEp7MOoNQIxApXhbgH19KmbaHkivSdg1T9gfe25nk",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkYiIsImlhdCI6MTc3OTU2MTE4NCwiZXhwIjoxNzgwMTY1OTg0fQ.HtCP2s1Bojp8Hvcb-VrTY5cd0OKV8MAxjbQGs4wtLX4",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkYiIsImlhdCI6MTc3OTU2MTM0MiwiZXhwIjoxNzgwMTY2MTQyfQ.e086SuZsHqZ6cy1y4cZ0_j-z3VRY0-IAMgHfFkEbWMU",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkYiIsImlhdCI6MTc3OTU2MTU4MSwiZXhwIjoxNzgwMTY2MzgxfQ.KWctzfLyVVVrj1HeOZGrr3YnQOQ3aaWQv-u6nvxLUXA"
+      ],
+      "status": "Active"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acdc",
+      "name": "Sarah Dispatcher",
+      "email": "dispatcher@fleetflow.com",
+      "password": "$2a$10$UYbrwbE43qZ2Sri8vRMSc.ttOXuYzwFb3W7LjKE9XP0TjZRls2J4y",
+      "role": "Dispatcher",
+      "phone": "+1 (555) 100-2002",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80",
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkYyIsImlhdCI6MTc3OTU2MDYyOCwiZXhwIjoxNzgwMTY1NDI4fQ.kybKaJ_fXKmBbdu-Prp6AqvX9twZJd5a_akgtEC0564"
+      ],
+      "status": "Active"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acdd",
+      "name": "Marcus Warehouse",
+      "email": "warehouse@fleetflow.com",
+      "password": "$2a$10$UYbrwbE43qZ2Sri8vRMSc.ttOXuYzwFb3W7LjKE9XP0TjZRls2J4y",
+      "role": "Warehouse Manager",
+      "phone": "+1 (555) 100-2003",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=150&h=150&q=80",
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkZCIsImlhdCI6MTc3OTU2MDYxOSwiZXhwIjoxNzgwMTY1NDE5fQ.mdB1rg7I-QN3jrfdmdcfrkESC9R1JjU1j4DecwE3XKw"
+      ],
+      "status": "Active"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acde",
+      "name": "Robert Miller",
+      "email": "driver@fleetflow.com",
+      "password": "$2a$10$UYbrwbE43qZ2Sri8vRMSc.ttOXuYzwFb3W7LjKE9XP0TjZRls2J4y",
+      "role": "Driver",
+      "phone": "+1 (555) 100-2004",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80",
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkZSIsImlhdCI6MTc3OTU1OTYxOSwiZXhwIjoxNzgwMTY0NDE5fQ.BK2866SthVyxkasPvVyGYcq77Z_ESaPbegx69Erp78Q",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkZSIsImlhdCI6MTc3OTU2MDY1OCwiZXhwIjoxNzgwMTY1NDU4fQ.qeoxlSsH4fmjUFVK7ahcOCGYZQ6uuAnJiR2m9DNAO68",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMTFkZmNmZmExODU2OGFkYjMzYWNkZSIsImlhdCI6MTc3OTU2MTg4NCwiZXhwIjoxNzgwMTY2Njg0fQ.EGx25HgS9bnnACjTTV2LYCyG1Hf5gIaRw_kiDQ2u2QA"
+      ],
+      "status": "Active"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acdf",
+      "name": "Carlos Gomez",
+      "email": "driver2@fleetflow.com",
+      "password": "$2a$10$UYbrwbE43qZ2Sri8vRMSc.ttOXuYzwFb3W7LjKE9XP0TjZRls2J4y",
+      "role": "Driver",
+      "phone": "+1 (555) 100-2005",
+      "avatar": "https://images.unsplash.com/photo-1628157582853-a796fa650a6a?auto=format&fit=crop&w=150&h=150&q=80",
+      "refreshTokens": [],
+      "status": "Active"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33ace0",
+      "name": "David Wilson",
+      "email": "driver3@fleetflow.com",
+      "password": "$2a$10$UYbrwbE43qZ2Sri8vRMSc.ttOXuYzwFb3W7LjKE9XP0TjZRls2J4y",
+      "role": "Driver",
+      "phone": "+1 (555) 100-2006",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80",
+      "refreshTokens": [],
+      "status": "Active"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33ace1",
+      "name": "Emily Davis",
+      "email": "driver4@fleetflow.com",
+      "password": "$2a$10$UYbrwbE43qZ2Sri8vRMSc.ttOXuYzwFb3W7LjKE9XP0TjZRls2J4y",
+      "role": "Driver",
+      "phone": "+1 (555) 100-2007",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80",
+      "refreshTokens": [],
+      "status": "Active"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33ace2",
+      "name": "James Chen",
+      "email": "driver5@fleetflow.com",
+      "password": "$2a$10$UYbrwbE43qZ2Sri8vRMSc.ttOXuYzwFb3W7LjKE9XP0TjZRls2J4y",
+      "role": "Driver",
+      "phone": "+1 (555) 100-2008",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80",
+      "refreshTokens": [],
+      "status": "Active"
+    },
+    {
+      "_id": "1779561505985",
+      "name": "Simulated Google Driver",
+      "email": "simulated.google.driver@fleetflow.com",
+      "password": "$2a$10$AYyIuEuMMkbT1kAWjSn1GOMlKPw4ftHQKu0Sm51yYb/vMybk3dxW2",
+      "role": "Driver",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80",
+      "phone": "+1 (555) 000-0000",
+      "status": "Active",
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE3Nzk1NjE1MDU5ODUiLCJpYXQiOjE3Nzk1NjE1MDUsImV4cCI6MTc4MDE2NjMwNX0.XLCISpUj490UMgqFHbinPWQRnEZHTOmg4LDOWMCIt30",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE3Nzk1NjE1MDU5ODUiLCJpYXQiOjE3Nzk1NjE4NDUsImV4cCI6MTc4MDE2NjY0NX0.lXS6pngfcNvyfVgNTQ-MRc9rqSxa3UjmnO2LzQNLRBQ"
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "_id": "6a11dfcffa18568adb33ace3",
+      "vehicleNumber": "V-FL-5501",
+      "type": "Semi-Truck",
+      "capacity": 18000,
+      "fuelStatus": 5,
+      "currentLocation": {
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "address": "En route to SF Port Terminal"
+      },
+      "maintenanceStatus": "Satisfactory",
+      "availability": false,
+      "assignedDriver": "6a11dfcffa18568adb33acde"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33ace4",
+      "vehicleNumber": "V-FL-5502",
+      "type": "Semi-Truck",
+      "capacity": 20000,
+      "fuelStatus": 42,
+      "currentLocation": {
+        "lat": 36.7378,
+        "lng": -119.7871,
+        "address": "Fresno Depot Yard"
+      },
+      "maintenanceStatus": "Service Due",
+      "availability": false,
+      "assignedDriver": "6a11dfcffa18568adb33acdf"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33ace5",
+      "vehicleNumber": "V-FL-3301",
+      "type": "Box Truck",
+      "capacity": 8000,
+      "fuelStatus": 95,
+      "currentLocation": {
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "address": "SF Port Terminal"
+      },
+      "maintenanceStatus": "Satisfactory",
+      "availability": false,
+      "assignedDriver": "6a11dfcffa18568adb33ace0"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33ace6",
+      "vehicleNumber": "V-FL-1201",
+      "type": "Cargo Van",
+      "capacity": 2000,
+      "fuelStatus": 15,
+      "currentLocation": {
+        "lat": 32.7157,
+        "lng": -117.1611,
+        "address": "San Diego Depot"
+      },
+      "maintenanceStatus": "Under Repair",
+      "availability": false,
+      "assignedDriver": "6a11dfcffa18568adb33ace1"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33ace7",
+      "vehicleNumber": "V-FL-5503",
+      "type": "Semi-Truck",
+      "capacity": 19000,
+      "fuelStatus": 92,
+      "currentLocation": {
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "address": "LA Logistics Hub"
+      },
+      "maintenanceStatus": "Satisfactory",
+      "availability": true,
+      "assignedDriver": null
+    },
+    {
+      "_id": "6a11dfcffa18568adb33ace8",
+      "vehicleNumber": "V-FL-4401",
+      "type": "Flatbed",
+      "capacity": 12000,
+      "fuelStatus": 78,
+      "currentLocation": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "address": "Silicon Valley Fulfillment"
+      },
+      "maintenanceStatus": "Satisfactory",
+      "availability": true,
+      "assignedDriver": null
+    }
+  ],
+  "drivers": [
+    {
+      "_id": "6a11dfcffa18568adb33ace9",
+      "user": "6a11dfcffa18568adb33acde",
+      "licenseNumber": "CDL-CA-99201",
+      "experience": 8,
+      "status": "On Duty",
+      "assignedVehicle": "6a11dfcffa18568adb33ace3"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acea",
+      "user": "6a11dfcffa18568adb33acdf",
+      "licenseNumber": "CDL-CA-33820",
+      "experience": 12,
+      "status": "On Duty",
+      "assignedVehicle": "6a11dfcffa18568adb33ace4"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33aceb",
+      "user": "6a11dfcffa18568adb33ace0",
+      "licenseNumber": "CDL-CA-11209",
+      "experience": 5,
+      "status": "On Duty",
+      "assignedVehicle": "6a11dfcffa18568adb33ace5"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acec",
+      "user": "6a11dfcffa18568adb33ace1",
+      "licenseNumber": "CDL-CA-44910",
+      "experience": 3,
+      "status": "Offline",
+      "assignedVehicle": "6a11dfcffa18568adb33ace6"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33aced",
+      "user": "6a11dfcffa18568adb33ace2",
+      "licenseNumber": "CDL-NV-88710",
+      "experience": 6,
+      "status": "Available",
+      "assignedVehicle": null
+    },
+    {
+      "_id": "1779561505985-drv",
+      "user": "1779561505985",
+      "licenseNumber": "CDL-GGL-30348",
+      "experience": 1,
+      "status": "Available",
+      "assignedVehicle": null
+    }
+  ],
+  "shipments": [
+    {
+      "_id": "6a11dfcffa18568adb33acee",
+      "shipmentId": "FF-10001",
+      "origin": {
+        "name": "LA Logistics Hub",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "address": "1200 S Alameda St, Los Angeles, CA 90021"
+      },
+      "destination": {
+        "name": "SF Port Terminal",
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "address": "Pier 27, The Embarcadero, San Francisco, CA 94111"
+      },
+      "status": "In Transit",
+      "priority": "Critical",
+      "vehicle": "6a11dfcffa18568adb33ace3",
+      "driver": "6a11dfcffa18568adb33acde",
+      "warehouseManager": "6a11dfcffa18568adb33acdd",
+      "scheduledDeliveryDate": "2026-05-23T23:11:43.793Z",
+      "estimatedDeliveryTime": "2026-05-23T22:41:43.793Z",
+      "dimensions": {
+        "weight": 12000,
+        "volume": 45
+      },
+      "routeCoordinates": [
+        {
+          "lat": 34.0522,
+          "lng": -118.2437
+        },
+        {
+          "lat": 34.30038,
+          "lng": -118.52208
+        },
+        {
+          "lat": 34.54856,
+          "lng": -118.80046
+        },
+        {
+          "lat": 34.79674,
+          "lng": -119.07884
+        },
+        {
+          "lat": 35.04492,
+          "lng": -119.35722
+        },
+        {
+          "lat": 35.2931,
+          "lng": -119.6356
+        },
+        {
+          "lat": 35.54128,
+          "lng": -119.91398
+        },
+        {
+          "lat": 35.78946,
+          "lng": -120.19236
+        },
+        {
+          "lat": 36.03764,
+          "lng": -120.47074
+        },
+        {
+          "lat": 36.28582,
+          "lng": -120.74912
+        },
+        {
+          "lat": 36.534,
+          "lng": -121.0275
+        },
+        {
+          "lat": 36.782180000000004,
+          "lng": -121.30588
+        },
+        {
+          "lat": 37.03036,
+          "lng": -121.58426
+        },
+        {
+          "lat": 37.27854,
+          "lng": -121.86264
+        },
+        {
+          "lat": 37.526720000000005,
+          "lng": -122.14102
+        },
+        {
+          "lat": 37.7749,
+          "lng": -122.4194
+        }
+      ],
+      "currentCoordinates": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "updatedAt": "2026-05-23T13:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdd",
+          "reason": "Order placed by production dept"
+        },
+        {
+          "status": "Assigned",
+          "updatedAt": "2026-05-23T14:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdc",
+          "reason": "Assigned to Robert Miller and Semi-Truck V-FL-5501"
+        },
+        {
+          "status": "In Transit",
+          "updatedAt": "2026-05-23T16:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acde",
+          "reason": "Departed Los Angeles Depot"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acef",
+      "shipmentId": "FF-10002",
+      "origin": {
+        "name": "Arizona Freight Center",
+        "lat": 33.4484,
+        "lng": -112.074,
+        "address": "3000 W Buckeye Rd, Phoenix, AZ 85009"
+      },
+      "destination": {
+        "name": "Nevada Distribution Hub",
+        "lat": 36.1716,
+        "lng": -115.1398,
+        "address": "4400 E Pecos Rd, Las Vegas, NV 89115"
+      },
+      "status": "Delayed",
+      "priority": "High",
+      "vehicle": "6a11dfcffa18568adb33ace4",
+      "driver": "6a11dfcffa18568adb33acdf",
+      "warehouseManager": "6a11dfcffa18568adb33acdd",
+      "scheduledDeliveryDate": "2026-05-23T15:11:43.793Z",
+      "estimatedDeliveryTime": "2026-05-23T20:11:43.793Z",
+      "dimensions": {
+        "weight": 15500,
+        "volume": 52
+      },
+      "routeCoordinates": [
+        {
+          "lat": 33.4484,
+          "lng": -112.074
+        },
+        {
+          "lat": 33.62994666666667,
+          "lng": -112.27838666666666
+        },
+        {
+          "lat": 33.81149333333333,
+          "lng": -112.48277333333333
+        },
+        {
+          "lat": 33.99304,
+          "lng": -112.68715999999999
+        },
+        {
+          "lat": 34.17458666666666,
+          "lng": -112.89154666666667
+        },
+        {
+          "lat": 34.35613333333333,
+          "lng": -113.09593333333333
+        },
+        {
+          "lat": 34.53768,
+          "lng": -113.30032
+        },
+        {
+          "lat": 34.719226666666664,
+          "lng": -113.50470666666666
+        },
+        {
+          "lat": 34.90077333333333,
+          "lng": -113.70909333333333
+        },
+        {
+          "lat": 35.082319999999996,
+          "lng": -113.91347999999999
+        },
+        {
+          "lat": 35.263866666666665,
+          "lng": -114.11786666666666
+        },
+        {
+          "lat": 35.445413333333335,
+          "lng": -114.32225333333332
+        },
+        {
+          "lat": 35.62696,
+          "lng": -114.52664
+        },
+        {
+          "lat": 35.808506666666666,
+          "lng": -114.73102666666666
+        },
+        {
+          "lat": 35.99005333333333,
+          "lng": -114.93541333333333
+        },
+        {
+          "lat": 36.1716,
+          "lng": -115.1398
+        }
+      ],
+      "currentCoordinates": {
+        "lat": 34.53768,
+        "lng": -113.30032
+      },
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "updatedAt": "2026-05-23T05:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdd",
+          "reason": "Parts ready for distribution"
+        },
+        {
+          "status": "Assigned",
+          "updatedAt": "2026-05-23T07:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdc",
+          "reason": "Assigned vehicle V-FL-5502"
+        },
+        {
+          "status": "In Transit",
+          "updatedAt": "2026-05-23T11:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdf",
+          "reason": "En route"
+        },
+        {
+          "status": "Delayed",
+          "updatedAt": "2026-05-23T15:41:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdf",
+          "reason": "Heavy traffic delays and minor engine diagnostics check"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acf0",
+      "shipmentId": "FF-10003",
+      "origin": {
+        "name": "San Diego Depot",
+        "lat": 32.7157,
+        "lng": -117.1611,
+        "address": "2200 Belt St, San Diego, CA 92113"
+      },
+      "destination": {
+        "name": "LA Logistics Hub",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "address": "1200 S Alameda St, Los Angeles, CA 90021"
+      },
+      "status": "Delivered",
+      "priority": "Medium",
+      "vehicle": "6a11dfcffa18568adb33ace5",
+      "driver": "6a11dfcffa18568adb33ace0",
+      "warehouseManager": "6a11dfcffa18568adb33acdd",
+      "scheduledDeliveryDate": "2026-05-23T13:11:43.793Z",
+      "estimatedDeliveryTime": "2026-05-23T12:41:43.793Z",
+      "actualDeliveryTime": "2026-05-23T12:59:43.793Z",
+      "dimensions": {
+        "weight": 4500,
+        "volume": 18
+      },
+      "routeCoordinates": [
+        {
+          "lat": 32.7157,
+          "lng": -117.1611
+        },
+        {
+          "lat": 32.84935,
+          "lng": -117.26936
+        },
+        {
+          "lat": 32.983,
+          "lng": -117.37762000000001
+        },
+        {
+          "lat": 33.11665,
+          "lng": -117.48588000000001
+        },
+        {
+          "lat": 33.250299999999996,
+          "lng": -117.59414000000001
+        },
+        {
+          "lat": 33.38395,
+          "lng": -117.70240000000001
+        },
+        {
+          "lat": 33.5176,
+          "lng": -117.81066
+        },
+        {
+          "lat": 33.65125,
+          "lng": -117.91892
+        },
+        {
+          "lat": 33.7849,
+          "lng": -118.02718
+        },
+        {
+          "lat": 33.918549999999996,
+          "lng": -118.13544
+        },
+        {
+          "lat": 34.0522,
+          "lng": -118.2437
+        }
+      ],
+      "currentCoordinates": {
+        "name": "LA Logistics Hub",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "address": "1200 S Alameda St, Los Angeles, CA 90021"
+      },
+      "proofOfDelivery": {
+        "imageUrl": "/uploads/mock_pod.jpg",
+        "signedBy": "Supervisor Adams",
+        "timestamp": "2026-05-23T12:59:43.793Z"
+      },
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "updatedAt": "2026-05-23T09:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdd"
+        },
+        {
+          "status": "Assigned",
+          "updatedAt": "2026-05-23T10:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdc"
+        },
+        {
+          "status": "In Transit",
+          "updatedAt": "2026-05-23T11:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33ace0"
+        },
+        {
+          "status": "Delivered",
+          "updatedAt": "2026-05-23T12:59:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33ace0",
+          "reason": "Signed by warehouse supervisor at unloading gate"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acf1",
+      "shipmentId": "FF-10004",
+      "origin": {
+        "name": "Sacramento Assembly Plant",
+        "lat": 38.5816,
+        "lng": -121.4944,
+        "address": "8400 Elder Creek Rd, Sacramento, CA 95828"
+      },
+      "destination": {
+        "name": "Central Valley Warehouse",
+        "lat": 36.7378,
+        "lng": -119.7871,
+        "address": "2600 E Central Ave, Fresno, CA 93725"
+      },
+      "status": "Assigned",
+      "priority": "Low",
+      "vehicle": "6a11dfcffa18568adb33ace4",
+      "driver": "6a11dfcffa18568adb33acdf",
+      "warehouseManager": "6a11dfcffa18568adb33acdd",
+      "scheduledDeliveryDate": "2026-05-24T17:11:43.793Z",
+      "estimatedDeliveryTime": "2026-05-24T20:11:43.793Z",
+      "dimensions": {
+        "weight": 8000,
+        "volume": 30
+      },
+      "routeCoordinates": [
+        {
+          "lat": 38.5816,
+          "lng": -121.4944
+        },
+        {
+          "lat": 38.42795,
+          "lng": -121.352125
+        },
+        {
+          "lat": 38.274300000000004,
+          "lng": -121.20985
+        },
+        {
+          "lat": 38.12065,
+          "lng": -121.067575
+        },
+        {
+          "lat": 37.967,
+          "lng": -120.9253
+        },
+        {
+          "lat": 37.81335,
+          "lng": -120.783025
+        },
+        {
+          "lat": 37.6597,
+          "lng": -120.64075
+        },
+        {
+          "lat": 37.50605,
+          "lng": -120.498475
+        },
+        {
+          "lat": 37.3524,
+          "lng": -120.3562
+        },
+        {
+          "lat": 37.198750000000004,
+          "lng": -120.21392499999999
+        },
+        {
+          "lat": 37.0451,
+          "lng": -120.07164999999999
+        },
+        {
+          "lat": 36.89145,
+          "lng": -119.929375
+        },
+        {
+          "lat": 36.7378,
+          "lng": -119.7871
+        }
+      ],
+      "currentCoordinates": {
+        "name": "Sacramento Assembly Plant",
+        "lat": 38.5816,
+        "lng": -121.4944,
+        "address": "8400 Elder Creek Rd, Sacramento, CA 95828"
+      },
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "updatedAt": "2026-05-23T15:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdd"
+        },
+        {
+          "status": "Assigned",
+          "updatedAt": "2026-05-23T16:41:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdc",
+          "reason": "Assigned to Carlos Gomez for next-day dispatch"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acf2",
+      "shipmentId": "FF-10005",
+      "origin": {
+        "name": "Silicon Valley Fulfillment",
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "address": "1500 S 10th St, San Jose, CA 95112"
+      },
+      "destination": {
+        "name": "San Diego Depot",
+        "lat": 32.7157,
+        "lng": -117.1611,
+        "address": "2200 Belt St, San Diego, CA 92113"
+      },
+      "status": "Pending",
+      "priority": "High",
+      "warehouseManager": "6a11dfcffa18568adb33acdd",
+      "scheduledDeliveryDate": "2026-05-24T11:11:43.793Z",
+      "dimensions": {
+        "weight": 9500,
+        "volume": 35
+      },
+      "routeCoordinates": [
+        {
+          "lat": 37.3382,
+          "lng": -121.8863
+        },
+        {
+          "lat": 37.030033333333336,
+          "lng": -121.57128666666667
+        },
+        {
+          "lat": 36.72186666666666,
+          "lng": -121.25627333333334
+        },
+        {
+          "lat": 36.4137,
+          "lng": -120.94126
+        },
+        {
+          "lat": 36.105533333333334,
+          "lng": -120.62624666666667
+        },
+        {
+          "lat": 35.79736666666667,
+          "lng": -120.31123333333333
+        },
+        {
+          "lat": 35.4892,
+          "lng": -119.99622000000001
+        },
+        {
+          "lat": 35.18103333333333,
+          "lng": -119.68120666666667
+        },
+        {
+          "lat": 34.87286666666667,
+          "lng": -119.36619333333334
+        },
+        {
+          "lat": 34.5647,
+          "lng": -119.05118
+        },
+        {
+          "lat": 34.25653333333333,
+          "lng": -118.73616666666668
+        },
+        {
+          "lat": 33.948366666666665,
+          "lng": -118.42115333333334
+        },
+        {
+          "lat": 33.6402,
+          "lng": -118.10614000000001
+        },
+        {
+          "lat": 33.33203333333333,
+          "lng": -117.79112666666667
+        },
+        {
+          "lat": 33.02386666666666,
+          "lng": -117.47611333333333
+        },
+        {
+          "lat": 32.7157,
+          "lng": -117.1611
+        }
+      ],
+      "currentCoordinates": {
+        "name": "Silicon Valley Fulfillment",
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "address": "1500 S 10th St, San Jose, CA 95112"
+      },
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "updatedAt": "2026-05-23T17:11:43.794Z",
+          "updatedBy": "6a11dfcffa18568adb33acdd",
+          "reason": "Pending vehicle capacity allocation"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acf3",
+      "shipmentId": "FF-10006",
+      "origin": {
+        "name": "LA Logistics Hub",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "address": "1200 S Alameda St, Los Angeles, CA 90021"
+      },
+      "destination": {
+        "name": "Nevada Distribution Hub",
+        "lat": 36.1716,
+        "lng": -115.1398,
+        "address": "4400 E Pecos Rd, Las Vegas, NV 89115"
+      },
+      "status": "Pending",
+      "priority": "Medium",
+      "warehouseManager": "6a11dfcffa18568adb33acdd",
+      "scheduledDeliveryDate": "2026-05-25T05:11:43.793Z",
+      "dimensions": {
+        "weight": 14000,
+        "volume": 48
+      },
+      "routeCoordinates": [
+        {
+          "lat": 34.0522,
+          "lng": -118.2437
+        },
+        {
+          "lat": 34.22881666666667,
+          "lng": -117.98504166666667
+        },
+        {
+          "lat": 34.405433333333335,
+          "lng": -117.72638333333333
+        },
+        {
+          "lat": 34.582049999999995,
+          "lng": -117.467725
+        },
+        {
+          "lat": 34.75866666666666,
+          "lng": -117.20906666666667
+        },
+        {
+          "lat": 34.93528333333333,
+          "lng": -116.95040833333333
+        },
+        {
+          "lat": 35.1119,
+          "lng": -116.69175
+        },
+        {
+          "lat": 35.288516666666666,
+          "lng": -116.43309166666667
+        },
+        {
+          "lat": 35.465133333333334,
+          "lng": -116.17443333333333
+        },
+        {
+          "lat": 35.64175,
+          "lng": -115.915775
+        },
+        {
+          "lat": 35.81836666666666,
+          "lng": -115.65711666666667
+        },
+        {
+          "lat": 35.99498333333333,
+          "lng": -115.39845833333332
+        },
+        {
+          "lat": 36.1716,
+          "lng": -115.1398
+        }
+      ],
+      "currentCoordinates": {
+        "name": "LA Logistics Hub",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "address": "1200 S Alameda St, Los Angeles, CA 90021"
+      },
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "updatedAt": "2026-05-23T17:11:43.794Z",
+          "updatedBy": "6a11dfcffa18568adb33acdd"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acf4",
+      "shipmentId": "FF-10007",
+      "origin": {
+        "name": "SF Port Terminal",
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "address": "Pier 27, The Embarcadero, San Francisco, CA 94111"
+      },
+      "destination": {
+        "name": "Sacramento Assembly Plant",
+        "lat": 38.5816,
+        "lng": -121.4944,
+        "address": "8400 Elder Creek Rd, Sacramento, CA 95828"
+      },
+      "status": "Cancelled",
+      "priority": "Low",
+      "warehouseManager": "6a11dfcffa18568adb33acdd",
+      "scheduledDeliveryDate": "2026-05-22T17:11:43.793Z",
+      "dimensions": {
+        "weight": 2000,
+        "volume": 8
+      },
+      "routeCoordinates": [
+        {
+          "lat": 37.7749,
+          "lng": -122.4194
+        },
+        {
+          "lat": 37.8757375,
+          "lng": -122.303775
+        },
+        {
+          "lat": 37.976575000000004,
+          "lng": -122.18815
+        },
+        {
+          "lat": 38.0774125,
+          "lng": -122.072525
+        },
+        {
+          "lat": 38.178250000000006,
+          "lng": -121.95689999999999
+        },
+        {
+          "lat": 38.2790875,
+          "lng": -121.841275
+        },
+        {
+          "lat": 38.379925,
+          "lng": -121.72565
+        },
+        {
+          "lat": 38.480762500000004,
+          "lng": -121.610025
+        },
+        {
+          "lat": 38.5816,
+          "lng": -121.4944
+        }
+      ],
+      "currentCoordinates": {
+        "name": "SF Port Terminal",
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "address": "Pier 27, The Embarcadero, San Francisco, CA 94111"
+      },
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "updatedAt": "2026-05-22T11:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdd"
+        },
+        {
+          "status": "Cancelled",
+          "updatedAt": "2026-05-22T21:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdb",
+          "reason": "Order canceled by manufacturing unit"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acf5",
+      "shipmentId": "FF-10008",
+      "origin": {
+        "name": "Central Valley Warehouse",
+        "lat": 36.7378,
+        "lng": -119.7871,
+        "address": "2600 E Central Ave, Fresno, CA 93725"
+      },
+      "destination": {
+        "name": "Silicon Valley Fulfillment",
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "address": "1500 S 10th St, San Jose, CA 95112"
+      },
+      "status": "Delivered",
+      "priority": "High",
+      "vehicle": "6a11dfcffa18568adb33ace3",
+      "driver": "6a11dfcffa18568adb33acde",
+      "warehouseManager": "6a11dfcffa18568adb33acdd",
+      "scheduledDeliveryDate": "2026-05-21T17:11:43.793Z",
+      "estimatedDeliveryTime": "2026-05-21T18:11:43.793Z",
+      "actualDeliveryTime": "2026-05-21T17:41:43.793Z",
+      "dimensions": {
+        "weight": 11000,
+        "volume": 40
+      },
+      "routeCoordinates": [
+        {
+          "lat": 36.7378,
+          "lng": -119.7871
+        },
+        {
+          "lat": 36.81285,
+          "lng": -120.0495
+        },
+        {
+          "lat": 36.8879,
+          "lng": -120.3119
+        },
+        {
+          "lat": 36.96295,
+          "lng": -120.5743
+        },
+        {
+          "lat": 37.038,
+          "lng": -120.83670000000001
+        },
+        {
+          "lat": 37.11305,
+          "lng": -121.0991
+        },
+        {
+          "lat": 37.1881,
+          "lng": -121.3615
+        },
+        {
+          "lat": 37.26315,
+          "lng": -121.6239
+        },
+        {
+          "lat": 37.3382,
+          "lng": -121.8863
+        }
+      ],
+      "currentCoordinates": {
+        "name": "Silicon Valley Fulfillment",
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "address": "1500 S 10th St, San Jose, CA 95112"
+      },
+      "proofOfDelivery": {
+        "imageUrl": "/uploads/mock_pod.jpg",
+        "signedBy": "Clerk Henderson",
+        "timestamp": "2026-05-21T17:41:43.793Z"
+      },
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "updatedAt": "2026-05-21T09:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdd"
+        },
+        {
+          "status": "Assigned",
+          "updatedAt": "2026-05-21T11:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acdc"
+        },
+        {
+          "status": "In Transit",
+          "updatedAt": "2026-05-21T14:11:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acde"
+        },
+        {
+          "status": "Delivered",
+          "updatedAt": "2026-05-21T17:41:43.793Z",
+          "updatedBy": "6a11dfcffa18568adb33acde",
+          "reason": "Successfully unloaded"
+        }
+      ],
+      "comments": []
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "6a11dfcffa18568adb33acf6",
+      "recipient": "6a11dfcffa18568adb33acde",
+      "recipientRole": "Driver",
+      "title": "New Shipment Assigned",
+      "message": "You have been assigned to Shipment FF-10001 (Los Angeles to San Francisco).",
+      "type": "SHIPMENT_ASSIGNED",
+      "readBy": [],
+      "metadata": {
+        "shipmentId": "6a11dfcffa18568adb33acee"
+      },
+      "createdAt": "2026-05-23T16:41:43.793Z"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acf7",
+      "recipientRole": "Dispatcher",
+      "title": "Shipment Delayed Alert",
+      "message": "Shipment FF-10002 is marked as delayed due to traffic checks.",
+      "type": "SHIPMENT_DELAYED",
+      "readBy": [],
+      "metadata": {
+        "shipmentId": "6a11dfcffa18568adb33acef"
+      },
+      "createdAt": "2026-05-23T16:56:43.793Z"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acf8",
+      "recipientRole": "Warehouse Manager",
+      "title": "Shipment Delivered",
+      "message": "Shipment FF-10003 (San Diego to Los Angeles) has been successfully delivered.",
+      "type": "SHIPMENT_DELIVERED",
+      "readBy": [],
+      "metadata": {
+        "shipmentId": "6a11dfcffa18568adb33acf0"
+      },
+      "createdAt": "2026-05-23T16:26:43.793Z"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acf9",
+      "recipientRole": "Admin",
+      "title": "Vehicle Maintenance Warning",
+      "message": "Vehicle V-FL-1201 is currently Under Repair.",
+      "type": "MAINTENANCE_DUE",
+      "readBy": [],
+      "metadata": {
+        "vehicleNumber": "V-FL-1201"
+      },
+      "createdAt": "2026-05-23T16:11:43.793Z"
+    }
+  ],
+  "activities": [
+    {
+      "_id": "6a11dfcffa18568adb33acfa",
+      "user": "6a11dfcffa18568adb33acdb",
+      "action": "SYSTEM_SEEDED",
+      "details": "System database seeded with initial fleet, user, and route configurations.",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-05-23T15:11:43.793Z"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acfb",
+      "user": "6a11dfcffa18568adb33acdd",
+      "action": "CREATED_SHIPMENT",
+      "details": "Created Shipment FF-10001 targeting SF Port Terminal.",
+      "ipAddress": "192.168.1.15",
+      "createdAt": "2026-05-23T15:31:43.793Z"
+    },
+    {
+      "_id": "6a11dfcffa18568adb33acfc",
+      "user": "6a11dfcffa18568adb33acdc",
+      "action": "ASSIGNED_VEHICLE",
+      "details": "Assigned Driver Robert Miller and Vehicle V-FL-5501 to Shipment FF-10001.",
+      "ipAddress": "192.168.1.20",
+      "createdAt": "2026-05-23T15:51:43.793Z"
+    }
+  ]
+}
