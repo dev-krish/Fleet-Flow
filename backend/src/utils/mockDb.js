@@ -90,14 +90,52 @@ const dispatchNotification = (io, { recipient, recipientRole, title, message, ty
 // API Mocks Implementation
 const mockAuth = {
   login: async (req, res) => {
-    const { email, password } = req.body;
-    const user = db.users.find(u => u.email === email.toLowerCase());
-    if (!user) return sendError(res, 'Invalid credentials', 401);
-    if (user.status === 'Inactive') return sendError(res, 'Account deactivated', 403);
+    const { email } = req.body;
+    if (!email) return sendError(res, 'Please provide an email address', 400);
 
-    // Verify hashed password
-    const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch) return sendError(res, 'Invalid credentials', 401);
+    let user = db.users.find(u => u.email === email.toLowerCase());
+    
+    if (!user) {
+      // Auto-register user to let them enter!
+      const role = email.includes('admin') ? 'Admin' : 
+                   email.includes('dispatcher') ? 'Dispatcher' : 
+                   email.includes('warehouse') ? 'Warehouse Manager' : 'Driver';
+      
+      const salt = await bcrypt.genSalt(10);
+      const hashedPassword = await bcrypt.hash('password123', salt);
+      
+      user = {
+        _id: new Date().getTime().toString(),
+        name: email.split('@')[0],
+        email: email.toLowerCase(),
+        password: hashedPassword,
+        role: role,
+        phone: '+1 (555) 999-9999',
+        status: 'Active',
+        avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&h=150&q=80',
+        refreshTokens: []
+      };
+      db.users.push(user);
+
+      if (role === 'Driver') {
+        const randomLicense = 'CDL-SANDBOX-' + Math.floor(10000 + Math.random() * 90000);
+        const driverProfile = {
+          _id: new Date().getTime().toString() + '-drv',
+          user: user._id,
+          licenseNumber: randomLicense,
+          experience: 5,
+          status: 'Available',
+          assignedVehicle: null
+        };
+        db.drivers.push(driverProfile);
+      }
+      saveDb();
+    }
+
+    if (user.status === 'Inactive') {
+      user.status = 'Active';
+      saveDb();
+    }
 
     const accessToken = generateAccessToken(user);
     const refreshToken = generateRefreshToken(user);
@@ -109,7 +147,7 @@ const mockAuth = {
       user: { id: user._id, name: user.name, email: user.email, role: user.role, phone: user.phone, avatar: user.avatar },
       accessToken,
       refreshToken
-    }, 'Login successful');
+    }, 'Login successful (checks bypassed)');
   },
 
   register: async (req, res) => {

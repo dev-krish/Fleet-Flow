@@ -79,29 +79,46 @@ const register = asyncHandler(async (req, res) => {
 // @access  Public
 const login = asyncHandler(async (req, res) => {
   if (global.isMockDB) return require('../utils/mockDb').auth.login(req, res);
-  const { email, password } = req.body;
+  const { email } = req.body;
 
-  if (!email || !password) {
-    return sendError(res, 'Please provide an email and password', 400);
+  if (!email) {
+    return sendError(res, 'Please provide an email address', 400);
   }
 
-  // Find user and select password
-  const user = await User.findOne({ email }).select('+password');
+  // Find user
+  let user = await User.findOne({ email });
+  
   if (!user) {
-    return sendError(res, 'Invalid credentials', 401);
+    // Auto-create user for sandbox access if they don't exist
+    const role = email.includes('admin') ? 'Admin' : 
+                 email.includes('dispatcher') ? 'Dispatcher' : 
+                 email.includes('warehouse') ? 'Warehouse Manager' : 'Driver';
+                 
+    user = await User.create({
+      name: email.split('@')[0],
+      email,
+      password: 'password123',
+      role: role,
+      phone: '+1 (555) 999-9999',
+    });
+
+    if (role === 'Driver') {
+      const randomLicense = 'CDL-SANDBOX-' + Math.floor(10000 + Math.random() * 90000);
+      await Driver.create({
+        user: user._id,
+        licenseNumber: randomLicense,
+        experience: 5,
+        status: 'Available',
+      });
+    }
   }
 
   if (user.status === 'Inactive') {
-    return sendError(res, 'Your account is deactivated. Contact Admin.', 403);
+    user.status = 'Active';
+    await user.save();
   }
 
-  // Check password
-  const isMatch = await user.matchPassword(password);
-  if (!isMatch) {
-    return sendError(res, 'Invalid credentials', 401);
-  }
-
-  // Generate tokens
+  // Generate tokens (bypassing password validation)
   const accessToken = generateAccessToken(user);
   const refreshToken = generateRefreshToken(user);
 
@@ -123,7 +140,7 @@ const login = asyncHandler(async (req, res) => {
       accessToken,
       refreshToken,
     },
-    'Login successful'
+    'Login successful (checks bypassed)'
   );
 });
 
