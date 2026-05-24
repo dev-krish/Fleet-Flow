@@ -430,7 +430,7 @@ const Shipments = () => {
                 </h4>
                 <div className="aspect-video w-full rounded border border-emerald-300 dark:border-emerald-900 bg-black/10 overflow-hidden relative">
                   <img
-                    src={`http://localhost:5000${selectedShipment.proofOfDelivery.imageUrl}`}
+                    src={`${import.meta.env.VITE_SOCKET_URL || 'http://localhost:5000'}${selectedShipment.proofOfDelivery.imageUrl}`}
                     alt="Proof of Delivery"
                     className="h-full w-full object-contain"
                     onError={(e) => {
