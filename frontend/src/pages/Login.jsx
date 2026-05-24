@@ -21,10 +21,24 @@ const Login = () => {
     { label: 'Driver', email: 'driver@fleetflow.com', desc: 'Mobile portals, status & POD uploads' },
   ];
 
-  const handleDemoClick = (demEmail) => {
+  const handleDemoClick = async (demEmail) => {
     setEmail(demEmail);
     setPassword('password123');
     setError('');
+    setIsSubmitting(true);
+    try {
+      const user = await login({ email: demEmail, password: 'password123' });
+      if (user.role === 'Driver') {
+        navigate('/driver-portal');
+      } else {
+        navigate('/');
+      }
+    } catch (err) {
+      console.error('Demo Login error:', err);
+      setError(err.response?.data?.message || 'Demo credentials failed or backend connection error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleGoogleLoginSuccess = async (response) => {
@@ -134,6 +148,20 @@ const Login = () => {
           Enter credentials or use sandbox shortcuts
         </p>
       </div>
+
+      {/* Production Backend Configuration Warning */}
+      {!window.location.hostname.includes('localhost') && (!import.meta.env.VITE_API_URL || import.meta.env.VITE_API_URL.includes('localhost')) && (
+        <div className="flex flex-col gap-1.5 p-3.5 mb-2 text-xs font-medium text-amber-850 dark:text-amber-400 bg-amber-50/90 dark:bg-amber-950/20 border border-amber-200/50 dark:border-amber-900/50 rounded-xl animate-scale-in">
+          <div className="flex gap-2 font-bold items-center text-amber-600 dark:text-amber-500">
+            <AlertTriangle className="h-4 w-4 shrink-0" />
+            <span>Backend Connection Warning</span>
+          </div>
+          <p className="text-[11px] leading-relaxed opacity-95 text-amber-800 dark:text-amber-400/90">
+            This deployment is running on Vercel, but trying to connect to a local backend (localhost). 
+            Please configure the <strong>VITE_API_URL</strong> and <strong>VITE_SOCKET_URL</strong> project environment variables on Vercel to point to your Render backend URL.
+          </p>
+        </div>
+      )}
 
       {error && (
         <div className="flex gap-2 p-3.5 mb-2 text-xs font-semibold text-rose-600 bg-rose-50/80 dark:bg-rose-950/20 dark:text-rose-400 border border-rose-200/50 dark:border-rose-900/50 rounded-xl animate-scale-in">

@@ -24,9 +24,18 @@ const app = require('./src/app');
 const server = http.createServer(app);
 
 // Integrate Socket.IO
+// Normalize CLIENT_URL by removing trailing slashes if present
+const socketAllowedOrigins = [];
+if (process.env.CLIENT_URL) {
+  const urls = process.env.CLIENT_URL.split(',').map(url => url.trim().replace(/\/$/, ''));
+  socketAllowedOrigins.push(...urls);
+} else {
+  socketAllowedOrigins.push('http://localhost:5173');
+}
+
 const io = socketio(server, {
   cors: {
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: socketAllowedOrigins.length === 1 ? socketAllowedOrigins[0] : socketAllowedOrigins,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   },

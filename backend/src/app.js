@@ -20,6 +20,12 @@ const allowedOrigins = [
   'http://localhost:3000'
 ];
 
+// Add CLIENT_URL from env if set, stripping any trailing slash
+if (process.env.CLIENT_URL) {
+  const clientUrls = process.env.CLIENT_URL.split(',').map(url => url.trim().replace(/\/$/, ''));
+  allowedOrigins.push(...clientUrls);
+}
+
 app.use(cors({
   origin: (origin, callback) => {
     // Allow requests with no origin (like mobile apps, postman, or curl)
